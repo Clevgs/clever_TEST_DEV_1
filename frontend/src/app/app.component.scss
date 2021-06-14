@@ -1,0 +1,61 @@
+#comp {
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 100%;
+    border-collapse: separate;
+    border: solid black 1px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+}
+
+#comp td,
+#comp th {
+    border: none;
+    padding: 8px;
+    text-align: left;
+}
+
+#comp tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#comp tr:hover {
+    background-color: #ddd;
+}
+
+#comp th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #1976d2;
+    color: white;
+    border-top: none;
+}
+
+.btn {
+    -webkit-border-radius: 17;
+    -moz-border-radius: 17;
+    border-radius: 17px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    background: #3498db;
+    padding: 6px 9px 6px 9px;
+    text-decoration: none;
+    float: right;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    text-align: left;
+}
